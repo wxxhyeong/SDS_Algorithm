@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Time_Complexity.iml" filepath="$PROJECT_DIR$/Time_Complexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sds_algorithm.iml" filepath="$PROJECT_DIR$/sds_algorithm.iml" />
     </modules>
   </component>
 </project>

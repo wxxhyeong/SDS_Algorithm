@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="683acb4f-117c-4080-a539-5dadc55dd317" name="Changes" comment="boj2003">
+      <change afterPath="$PROJECT_DIR$/src/Day1_Algorithm_Basic/boj9663.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Day3_Data_Structure/boj1991.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/boj2003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boj2003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Time_Complexity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sds_algorithm.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +40,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/git/SDS_Algorithm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,6 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1675150339620</updated>
       <workItem from="1675150341405" duration="766000" />
+      <workItem from="1675212942934" duration="129000" />
+      <workItem from="1675263111341" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="boj2003">
       <created>1675150429446</created>
