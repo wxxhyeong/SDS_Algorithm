@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="683acb4f-117c-4080-a539-5dadc55dd317" name="Changes" comment="sds/da1/boj9663(n-queen)/2월2일/흐엥 드디어 풀었네">
+    <list default="true" id="683acb4f-117c-4080-a539-5dadc55dd317" name="Changes" comment="sds/day1/boj9663(n-queen)/2월2일/설명추가">
+      <change afterPath="$PROJECT_DIR$/src/Day1_Algorithm_Basic/boj3425.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day1_Algorithm_Basic/boj9663.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day1_Algorithm_Basic/boj9663.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <workItem from="1675212942934" duration="129000" />
       <workItem from="1675263111341" duration="314000" />
       <workItem from="1675300235535" duration="122000" />
-      <workItem from="1675300439826" duration="8253000" />
+      <workItem from="1675300439826" duration="15911000" />
     </task>
     <task id="LOCAL-00001" summary="boj2003">
       <created>1675150429446</created>
@@ -114,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675323725601</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sds/day1/boj9663(n-queen)/2월2일/설명추가">
+      <created>1675336003112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675336003113</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <MESSAGE value="boj2003" />
     <MESSAGE value="sds/Day1_Answer" />
     <MESSAGE value="sds/da1/boj9663(n-queen)/2월2일/흐엥 드디어 풀었네" />
-    <option name="LAST_COMMIT_MESSAGE" value="sds/da1/boj9663(n-queen)/2월2일/흐엥 드디어 풀었네" />
+    <MESSAGE value="sds/day1/boj9663(n-queen)/2월2일/설명추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="sds/day1/boj9663(n-queen)/2월2일/설명추가" />
   </component>
 </project>
