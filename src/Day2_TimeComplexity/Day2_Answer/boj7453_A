@@ -1,0 +1,66 @@
+#include<stdio.h>
+#include<algorithm>
+
+using namespace std;
+
+typedef long long int lld;
+
+int n;
+int a[4001],b[4001],c[4001],d[4001];
+int ab[16000002],cd[16000002],abc,cdc;
+
+int main()
+{
+    scanf("%d",&n);
+    int i,j;
+    for(i=1;i<=n;i++)
+    {
+        scanf("%d%d%d%d",&a[i],&b[i],&c[i],&d[i]);
+    }
+
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=n;j++)
+        {
+            ab[++abc] = a[i]+b[j];
+            cd[++cdc] = c[i]+d[j];
+        }
+    }
+
+    sort(ab+1,ab+abc+1);
+    sort(cd+1,cd+cdc+1);
+
+    i=1;j=cdc;
+    ab[abc+1] = 2e9;
+    cd[0] = -2e9;
+
+    lld ans = 0;
+
+    while(i<=abc&&j>0)
+    {
+        if(ab[i]+cd[j]==0)
+        {
+            lld c1=1,c2=1;
+            while(ab[i]==ab[i+1])
+            {
+                i++;
+                c1++;
+            }
+            while(cd[j]==cd[j-1])
+            {
+                j--;
+                c2++;
+            }
+
+            ans += c1*c2;
+            i++;
+            j--;
+        }
+        else if(ab[i]+cd[j]>0)j--;
+        else i++;
+    }
+
+    printf("%lld",ans);
+
+    return 0;
+}
